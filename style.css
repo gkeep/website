@@ -48,7 +48,8 @@ nav {
 }
 
 main {
-  margin: 80px 5%;
+  margin: 0px 5%;
+  margin-top: 80px;
 }
 
 footer {
@@ -56,11 +57,12 @@ footer {
   font-size: small;
   text-align: center;
   height: 50px;
+  margin-top: 20px;
 }
 
 .project {
   border-radius: 10px;
-  padding-left: 20px;
+  padding: 0px 1%;
 }
 
 .top {
@@ -71,24 +73,10 @@ footer {
   z-index: auto;
 }
 
-div.image {
-  float: left;
-  width: 50%;
-  margin-left: 50px;
-}
-
-img.image {
-  max-width: 10%;
 img {
   max-width: 600px;
   width: 120px;
   height: auto;
-}
-
-.translations::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 a {
