@@ -1,0 +1,94 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f1117;
+    color: #c6c8d1;
+  }
+
+  div ,.top {
+    background-color: #161821;
+  }
+
+  a {
+    color: #84a0c6;
+  }
+
+  h3 {
+    color: #e2a478;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #cad0de;
+    color: #33374c;
+  }
+
+  div, .top {
+    background-color: #e8e9ec;
+  }
+
+  a {
+    color: #2d539e;
+  }
+
+  h3 {
+    color: #c57339;
+  }
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: medium;
+  margin: 0px;
+}
+
+nav {
+  font-family: 'Fira Code', 'DejaVu Sans Mono', monospace;
+  font-size: large;
+}
+
+main {
+  margin: 80px 5%;
+}
+
+footer {
+  font-family: 'Fira Code', monospace;
+  font-size: small;
+  text-align: center;
+  height: 50px;
+}
+
+.project {
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: auto;
+}
+
+div.image {
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+img.image {
+  max-width: 10%;
+  height: auto;
+}
+
+.translations::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
