@@ -1,3 +1,19 @@
+/* light theme (default) */
+body {
+  background-color: #cad0de;
+  color: #33374c;
+}
+div, .top {
+  background-color: #e8e9ec;
+}
+a {
+  color: #2d539e;
+}
+h3 {
+  color: #c57339;
+}
+
+/* dark theme (if set in windows/macos/ios/android */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #0f1117;
@@ -14,25 +30,6 @@
 
   h3 {
     color: #e2a478;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #cad0de;
-    color: #33374c;
-  }
-
-  div, .top {
-    background-color: #e8e9ec;
-  }
-
-  a {
-    color: #2d539e;
-  }
-
-  h3 {
-    color: #c57339;
   }
 }
 
