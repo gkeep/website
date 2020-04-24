@@ -50,7 +50,7 @@ main {
 }
 
 footer {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Fira Code', 'DejaVu Sans Mono', monospace;
   font-size: small;
   text-align: center;
   height: 50px;
