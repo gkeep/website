@@ -1,4 +1,4 @@
-# run with `curl https://gkeep.xyz/scripts/add-checkra1n-repo.sh | bash`
+# run with `curl https://gkeep.xyz/scripts/debain-install-checkra1n.sh | bash`
 echo "    $(tput bold)Adding checkra1n source...$(tput sgr0)"
 echo "deb https://assets.checkra.in/debian /" | sudo tee -a /etc/apt/sources.list
 
