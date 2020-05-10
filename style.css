@@ -1,36 +1,19 @@
-/* light theme (default) */
+/* TODO: Enable light theme as default whenever it is released */
 body {
-  background-color: #cad0de;
-  color: #33374c;
+  background-color: #0f1117;
+  color: #c6c8d1;
 }
-div, .top {
-  background-color: #e8e9ec;
+
+div ,.top {
+  background-color: #161821;
 }
+
 a {
-  color: #2d539e;
+  color: #84a0c6;
 }
+
 h3 {
-  color: #c57339;
-}
-
-/* dark theme (if set in windows/macos/ios/android */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #0f1117;
-    color: #c6c8d1;
-  }
-
-  div ,.top {
-    background-color: #161821;
-  }
-
-  a {
-    color: #84a0c6;
-  }
-
-  h3 {
-    color: #e2a478;
-  }
+  color: #e2a478;
 }
 
 body {
