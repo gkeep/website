@@ -1,4 +1,8 @@
 /* TODO: Enable light theme as default whenever it is released */
+
+/* Fira Code font */
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@3/distr/fira_code.css);
+
 body {
   background-color: #0f1117;
   color: #c6c8d1;
@@ -23,7 +27,7 @@ body {
 }
 
 nav {
-  font-family: 'Fira Code', 'DejaVu Sans Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: large;
 }
 
@@ -33,7 +37,7 @@ main {
 }
 
 footer {
-  font-family: 'Fira Code', 'DejaVu Sans Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: small;
   text-align: center;
   height: 50px;
