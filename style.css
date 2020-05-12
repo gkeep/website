@@ -16,6 +16,11 @@ h3 {
   color: #e2a478;
 }
 
+@font-face {
+  font-family: 'Fira Code';
+  src: url(font/FiraCode-Regular.woff2);
+}
+
 body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: medium;
@@ -23,7 +28,7 @@ body {
 }
 
 nav {
-  font-family: 'Fira Code', 'DejaVu Sans Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: large;
 }
 
@@ -33,7 +38,7 @@ main {
 }
 
 footer {
-  font-family: 'Fira Code', 'DejaVu Sans Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: small;
   text-align: center;
   height: 50px;
