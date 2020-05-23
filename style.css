@@ -58,6 +58,21 @@ footer {
   z-index: auto;
 }
 
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  padding: 5px;
+  text-align: center;
+}
+
 img {
   max-width: 600px;
   width: 120px;
