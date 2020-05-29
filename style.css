@@ -23,12 +23,11 @@ body {
 
 nav {
   font-family: 'Fira Code', 'Source Code Pro', 'DejaVu Sans Mono', monospace;
-  font-size: large;
 }
 
 main {
-  margin: 0px 5%;
-  margin-top: 80px;
+  margin: 0px 10%;
+  margin-top: 4%;
 }
 
 footer {
@@ -42,6 +41,7 @@ footer {
 .project {
   border-radius: 10px;
   padding: 0px 1%;
+  margin: 1%;
 }
 
 .top {
@@ -54,12 +54,6 @@ footer {
 
 .row {
   display: flex;
-}
-
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
 }
 
 .column {
@@ -76,4 +70,19 @@ img {
 a {
   background-color: transparent;
   text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    margin: 0px 2%;
+    margin-top: 15%;
+  }
+
+  .row {
+    overflow: scroll;
+  }
+
+  .column {
+    width: 100%;
+  }
 }
