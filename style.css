@@ -3,30 +3,52 @@
   src: url(font/FiraCode-Regular.woff2);
 }
 
+:root {
+  --color-background: #e8e9ec;
+  --color-background-alt: #dcdfe7;
+  --color-text: #33374c;
+  --color-text-alt: #262a3f;
+  --color-link: #2d539e;
+  --color-header: #c57339;
+  --color-title: #7759b4;
+}
+
+@media (prefers-colorscheme: dark) {
+  :root {
+    --color-background: #0f1117;
+    --color-background-alt: #161821;
+    --color-text: #c6c8d1;
+    --color-text-alt: #d2d4de;
+    --color-link: #84a0c6;
+    --color-header: #e2a478;
+    --color-title: #a093c7;
+  }
+}
+
 body {
-  background-color: #0f1117;
-  color: #c6c8d1;
+  background-color: var(--color-background);
+  color: var(--color-text);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: medium;
   margin: 0px;
 }
 
 div, .top {
-  background-color: #161821;
+  background-color: var(--color-background-alt);
 }
 
 a {
-  color: #84a0c6;
+  color: var(--color-link);
   background-color: transparent;
   text-decoration: none;
 }
 
 h2 {
-  color: #e2a478;
+  color: var(--color-header);
 }
 
 h3 {
-  color: #a093c7;
+  color: var(--color-title);
 }
 
 main {
