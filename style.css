@@ -13,7 +13,7 @@
   --color-title: #7759b4;
 }
 
-@media (prefers-colorscheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --color-background: #0f1117;
     --color-background-alt: #161821;
