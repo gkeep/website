@@ -112,8 +112,7 @@ img {
   .content {
     left: 50%;
     top: 50%;
-    padding: 0.5em;
-    font-size: large;
+    font-size: medium;
   }
 
   .row {
