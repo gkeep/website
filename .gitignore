@@ -1,4 +1,7 @@
 # vscode files
 .vscode/
 
+# custom folders
 scripts/
+random/
+
