@@ -71,13 +71,13 @@ footer p {
 }
 
 img {
-  max-width: 600px;
-  width: 120px;
+  max-width: 350px;
   height: auto;
 }
 
 #projects img {
   width: 85%;
+  max-width: 600px;
 }
 
 #authenticator img {
