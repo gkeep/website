@@ -80,6 +80,10 @@ img {
   width: 85%;
 }
 
+#authenticator img {
+  max-width: 350px;
+}
+
 .content {
   font-size: large;
   position: absolute;
