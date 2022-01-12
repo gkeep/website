@@ -51,6 +51,10 @@ h3 {
   color: var(--color-title);
 }
 
+h2, h3, h4 {
+  text-align: center;
+} 
+
 main {
   margin: 0px 10%;
 }
@@ -82,6 +86,11 @@ img {
 #projects img {
   width: 85%;
   max-width: 600px;
+}
+
+#project-link {
+  text-align: center;
+  align-items: center;
 }
 
 #authenticator img {
