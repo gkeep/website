@@ -8,9 +8,9 @@
   --color-background-alt: #dcdfe7;
   --color-text: #33374c;
   --color-text-alt: #262a3f;
-  --color-link: #2d539e;
-  --color-header: #c57339;
-  --color-title: #7759b4;
+  --color-blue: #2d539e;
+  --color-orange: #c57339;
+  --color-purple: #7759b4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,44 +19,83 @@
     --color-background-alt: #161821;
     --color-text: #c6c8d1;
     --color-text-alt: #d2d4de;
-    --color-link: #84a0c6;
-    --color-header: #e2a478;
-    --color-title: #a093c7;
+    --color-blue: #84a0c6;
+    --color-orange: #e2a478;
+    --color-purple: #a093c7;
   }
+}
+
+header {
+  font-size: large;
 }
 
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-  font-size: medium;
-  margin: 0px;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
+  font-size: large;
+  margin: 50px 15% 0 15%;
 }
 
-div, .top {
-  background-color: var(--color-background-alt);
+.navigation {
+  background-color: var(--color-background);
+  padding: 10px 0 10px 0;
+  border-color: var(--color-background);
+  border-radius: 5%;
+}
+
+.navigation > * {
+    margin-right: 30px;
+}
+
+.section {
+    padding-top: 20px;
+}
+
+#current-page {
+    color: var(--color-purple);
+}
+
+ul, ul > li {
+    padding: 0;
+    list-style: none;
 }
 
 a {
-  color: var(--color-link);
+  color: var(--color-blue);
   background-color: transparent;
   text-decoration: none;
 }
 
+a:hover {
+    background-color: var(--color-blue);
+    color: var(--color-background-alt);
+    font-weight: bolder;
+    border-style: solid;
+    border-color: var(--color-blue);
+    border-width: 1%;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: small;
+    font-family: "Fira Code Web";
+}
+
 h2 {
-  color: var(--color-header);
+  color: var(--color-orange);
 }
 
 h3 {
-  color: var(--color-title);
+  color: var(--color-purple);
 }
 
 h2, h3, h4 {
   text-align: center;
-} 
+}
 
 main {
-  margin: 0px 10%;
+    font-size: medium;
 }
 
 code, pre {
@@ -79,16 +118,16 @@ img {
   height: auto;
 }
 
-#main-page div {
-    width: 15em;
-}
+/* #main-page div { */
+/*     width: 15em; */
+/* } */
 
 #projects img {
   width: 85%;
   max-width: 600px;
 }
 
-#project-link {
+#project-blue {
   text-align: center;
   align-items: center;
 }
@@ -113,11 +152,6 @@ img {
   border-radius: 10px;
   padding: 2px 1%;
   margin: 1%;
-}
-
-.top {
-  padding: 1em;
-  text-align: center;
 }
 
 .row {
