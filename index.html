@@ -29,7 +29,7 @@
 
                 <p><div class="section-title">Role</div>
                 <b>Software engineer</b><br>
-                02.2020 - 07.2021</p>
+                Feb 2020 - Jul 2021</p>
 
                 <ul><div class="section-title">Stack</div>
                     <li>Python</li>
@@ -43,18 +43,26 @@
                     <li>Testing</li>
                 </ul>
 
-                <p><div class="section-title">Details</div>
+                <p><div class="section-title">Responsibilities</div>
                 Lead developer on multiple submodules of СКАТ DPI:</p>
-                <p>Website classifier:
+                <p><b>Website classifier</b>
                 <ol>
                     <li>Text classifier <i>(maintenance)</i></li>
                     <li>Image classifier <i>(development, shipping, maintenance)</i></li>
                     <li>Video classifier <i>(development, shipping, maintenance)</i></li>
                 </ol></p>
-                <p>Dump analyzer:
-                <ol>
-                    <li>Rewrite of the whole program</li>
-                </ol>
+                <p><div class="section-title">Details</div>
+                Created a module to scrape, download and analyze images and videos from websites using <a href="https://pypi.org/project/requests/">requests</a> and <a href="https://github.com/notAI-tech/NudeNet">NudeNet</a> libraries.
+                Made Quality of Life improvements to existing codebase: refactoring, added comments and vastly improved logging throughout the whole program.</p>
+                <p><b>Dump analyzer</b>
+                <ul><div class="section-title">Details</div>
+                    <li>Rewrote the whole program, as the old architecture was unusuable (very high memory load, terrible performance).</li>
+                    <li>Refactored program uses <i>5x</i> less memory, has low load on CPU and has great performance.</li>
+                    <ol>Used libraries:
+                        <li><a href="https://docs.python.org/3/library/xml.etree.elementtree.html">xml.etree.ElementTree</a> (analyzing and restructuring XML dumps)</li>
+                        <li><a href="https://clickhouse-driver.readthedocs.io/en/latest/">clickhouse-driver</a> (communicating and working with ClickHouse DB)</li>
+                    </ol>
+                </ul>
             </div>
         </main>
     </body>

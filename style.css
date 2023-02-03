@@ -34,7 +34,7 @@ body {
   color: var(--color-text);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
   font-size: large;
-  margin: 50px 15% 0 15%;
+  margin: 50px 20% 0 10%;
 }
 
 .navigation {
@@ -58,7 +58,8 @@ body {
 
 ul, ul > li {
     padding: 0;
-    list-style: none;
+    list-style-position: inside;
+    list-style-type: none;
 }
 
 a {
