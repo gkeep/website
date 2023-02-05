@@ -1,175 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="icon" href="../image/icon_rounded.png" />
-    <title>gkeep · Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="../style.css" />
-  </head>
-  <body>
-    <main id="projects">
-      <h2>Projects</h2>
-      <h4>Newest to oldest</h4>
+    <head>
+        <link rel="icon" href="image/icon_rounded.png"/>
+        <title>Gennady Koshkin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+        <header id="main-page">
+            <p><div class="section-title">About me</div>
+            Hi, I'm Gennady.</br>
+            I'm a <b>software developer</b>.
+            I specialize in <b>backend development</b> with <b>Python</b> and <b>Go</b>.</br>
+            I speak <b>English</b> and <b>Russian</b>.</p>
+            <p>You can find my projects on <a href="https://github.com/gkeep"><b>GitHub</b></a> and <a href="https://gitlab.com/gkeep_"><b>GitLab</b></a>.</p>
+            <p>Contact me at <a rel="me" href="https://libretooth.gr/@gkeep">Mastodon</a> or by <a href="mailto:me@gkeep.xyz">email</a>.
+        </header>
+        <div class="navigation">
+            <div class="section-title">Navigation</div>
+            <a href=/"">Experience</a>
+            <u id="current-page">Projects</u>
+        </div>
+        <main>
+            <div class="section">
+                <div class="section-title">Project</div>
+                <a href="https://gitlab.com/go-sys-mon/go-sys-mon">go-sys-mon</a>
 
-      <div class="project">
-        <h3>
-          go-sys-mon -
-          <a href="https://gitlab.com/go-sys-mon/go-sys-mon">view on GitLab</a>
-        </h3>
-        <p>A system monitoring tool written in Go. go-sys-mon supports monitoring of CPU, RAM, disks, network and temperatures.</p>
-        <p>The program features two UI modes: Web UI and Terminal UI.</p>
-        <div class="column" id="go-sys-mon">
-          <picture>
-            <source srcset="https://gitlab.com/go-sys-mon/go-sys-mon/-/raw/main/screenshots/tui.png" 
-              media="(prefers-color-scheme: light)">
-            <img src="../image/go-sys-mon_TUI_dark.png" alt="go-sys-mon TUI screenshot"/>
-          </picture>
-          <picture>
-            <source srcset="https://raw.githubusercontent.com/gkeep/website/master/image/go-sys-mon_WebUI_light.png" 
-              media="(prefers-color-scheme: light)">
-            <img src="../image/go-sys-mon_WebUI_dark.png" alt="go-sys-mon Web UI screenshot"/>
-          </picture>
-        </div>
-      </div>
+                <p><div class="section-title">Development time</div>
+                Dec 2021 - Jun 2022</p>
 
-      <div class="project">
-        <h3>
-          Gofetch -
-          <a href="https://gitlab.com/gkeep_/gofetch">view on GitLab</a>
-        </h3>
-        <p>Small *fetch program built with Go.</p>
-        <p>Displays distro, host, CPU name, package count, DE/WM and uptime</p>
-        <div class="column" id="gofetch">
-          <img
-            src="https://gitlab.com/gkeep_/gofetch/-/raw/main/images/gofetch.png"
-            alt="Gofetch screenshot"
-          />
-        </div>
-      </div>
+                <ul><div class="section-title">Stack</div>
+                    <li>Go</li>
+                    <li>JavaScript</li>
+                    <li>HTML + CSS</li>
+                </ul>
 
-      <div class="project">
-        <h3>
-          Spotify-stats -
-          <a href="https://github.com/gkeep/spotify-stats">view on GitHub</a>
-        </h3>
-        <p>Top 10 played tracks from Spotify, built with PyQt5 and spotipy.</p>
-        <div class="column" id="spotify-stats">
-          <img
-            src="https://github.com/gkeep/spotify-stats/raw/main/image/top-tracks-screenshot.png"
-            alt="Spotify-stats screenshot"
-          />
-        </div>
-      </div>
+                <div class="section-title">Screenshots</div>
+                <div class="column" id="go-sys-mon">
+                  <picture>
+                    <source srcset="https://gitlab.com/go-sys-mon/go-sys-mon/-/raw/main/screenshots/tui.png"
+                      media="(prefers-color-scheme: light)">
+                    <img src="../image/go-sys-mon_TUI_dark.png" alt="go-sys-mon TUI screenshot"/>
+                  </picture>
+                  <picture>
+                    <source srcset="https://raw.githubusercontent.com/gkeep/website/master/image/go-sys-mon_WebUI_light.png"
+                      media="(prefers-color-scheme: light)">
+                    <img src="../image/go-sys-mon_WebUI_dark.png" alt="go-sys-mon Web UI screenshot"/>
+                  </picture>
+                </div>
 
-      <div class="project">
-        <h3>
-          Authenticator -
-          <a href="https://github.com/gkeep/Authenticator">view on GitHub</a>
-        </h3>
-        <p>Desktop Authenticator app built with Python, Tkinter and pyotp.</p>
-        <div class="column" id="authenticator">
-          <img
-            src="https://raw.githubusercontent.com/gkeep/Authenticator/main/screenshots/main.png"
-            alt="Authenticator screenshot"
-          />
-        </div>
-      </div>
+                <p><div class="section-title">About</div>
+                A system monitoring tool written in Go.<br>
+                go-sys-mon supports monitoring of CPU, RAM, disks, network and temperatures.<br>
 
-      <div class="project">
-        <h3>
-          iceberg-dark -
-          <a href="https://github.com/gkeep/iceberg-dark">view on GitHub</a>
-        </h3>
-        <p>
-          Theme for various programs, designed with love for
-          <a href="https://github.com/cocopon/iceberg.vim">iceberg.vim</a>
-          theme. Meant to bring
-          <a href="https://github.com/cocopon/iceberg.vim">iceberg.vim</a>
-          to other environments and to replace it in places, where original
-          theme is hard to read.
-        </p>
-        <p>
-          Available for
-          <a href="https://github.com/itchyny/lightline.vim">lightline.vim</a>,
-          <a href="https://github.com/vim-airline/vim-airline">vim-airline</a>,
-          <a href="https://github.com/tmux/tmux">tmux</a> and
-          <a href="https://github.com/tobi-wan-kenobi/bumblebee-status"
-            >bumblebee-status</a
-          >.
-        </p>
-        <div class="row">
-          <div class="column">
-            <img
-              src="https://raw.githubusercontent.com/gkeep/iceberg-dark/master/screenshots/lightline_new.png"
-            />
-            <img
-              src="https://raw.githubusercontent.com/gkeep/iceberg-dark/master/screenshots/tmux_slanted.png"
-            />
-          </div>
-          <div class="column">
-            <img
-              src="https://raw.githubusercontent.com/gkeep/iceberg-dark/master/screenshots/airline.png"
-            />
-            <img
-              src="https://raw.githubusercontent.com/gkeep/iceberg-dark/master/screenshots/tmux_minimal.png"
-            />
-          </div>
-        </div>
-      </div>
+                Built as a college graduation project, go-sys-mon monitors your computer on multiple fronts: CPU, RAM, disk activiry and status, temperatures.</p>
 
-      <div class="project">
-        <h3>
-          Who Wants to Be a Mathematician? -
-          <a href="https://github.com/gkeep/Who-Wants-to-Be-a-Mathematician"
-            >view on GitHub</a
-          >
-        </h3>
-        <p>
-          Who Wants to Be a Mathematician is a Who Wants to Be a Millionaire
-          clone with
-          <a href="https://en.wikipedia.org/wiki/Mathematical_logic"
-            >mathematical logic</a
-          >
-          and
-          <a href="https://en.wikipedia.org/wiki/Probability_theory"
-            >probability theory</a
-          >
-          questions.
-        </p>
-        <p>Written in Obj-Pascal using Lazarus IDE. Available in Russian.</p>
-        <div class="column">
-          <img
-            src="https://raw.githubusercontent.com/gkeep/Who-Wants-to-Be-a-Mathematician/master/images/screenshot.png"
-            alt="Screenshot"
-          />
-        </div>
-      </div>
-      <div class="project">
-        <h3>
-          Zorq -
-          <a href="https://github.com/gkeep/zorq">view on GitHub</a>
-        </h3>
-        <p>
-          Zorq is a text adventure game written in Lazarus IDE (Obj-Pascal)
-          inspired by Zork for PDP-11. Available in English.
-        </p>
-        <div class="column">
-          <img
-            src="https://raw.githubusercontent.com/gkeep/zorq/master/screenshot.png"
-            alt="Zorq screenshot"
-          />
-        </div>
-      </div>
-    </main>
-    <footer>
-      <code>
-        <a href="../">gkeep</a>
-        <p>
-          <a href="https://github.com/gkeep">github</a> |
-          <a href="mailto:gkeep@gkeep.xyz">email</a>
-        </p>
-      </code>
-    </footer>
-  </body>
+                <p>Program features two UI modes: <b>terminal</b> and <b>web</b>.</p>
+                <p><b>Terminal UI</b> mode is helpful when you have physical or remote console access to the machine you're working on.<br>
+                <b>Web UI</b> works best when the HTTP port is open on the machine/router. This way you can access the web interface directly from the Internet (for example from your phone or laptop outside of network the machine is on).
+                </p>
+            </div>
+        </main>
+    </body>
 </html>
