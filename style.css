@@ -115,8 +115,13 @@ footer p {
 }
 
 img {
-  max-width: 350px;
+  max-width: 600px;
   height: auto;
+}
+
+.go-sys-mon > picture > source, img {
+    max-width: 450px;
+    height: auto;
 }
 
 /* #main-page div { */
@@ -135,6 +140,10 @@ img {
 
 #authenticator img {
   max-width: 350px;
+}
+
+.project-title {
+    font-size: large;
 }
 
 .content {
