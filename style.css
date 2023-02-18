@@ -184,11 +184,7 @@ img {
     font-size: medium;
   }
 
-  .row {
-    overflow: scroll;
-  }
-
-  .column {
-    width: 100%;
+  picture, img {
+      max-width: 250px;
   }
 }
