@@ -10,6 +10,7 @@
   --color-text-alt: #262a3f;
   --color-blue: #2d539e;
   --color-orange: #c57339;
+  --color-red: #cc517a;
   --color-purple: #7759b4;
 }
 
@@ -21,6 +22,7 @@
     --color-text-alt: #d2d4de;
     --color-blue: #84a0c6;
     --color-orange: #e2a478;
+    --color-red: #e27878;
     --color-purple: #a093c7;
   }
 }
@@ -118,6 +120,30 @@ img {
 .column {
   padding: 5px;
   text-align: center;
+}
+
+.icon-python, .icon-js, .icon-clickhouse {
+    color: var(--color-orange);
+}
+
+.icon-html {
+    color: var(--color-red);
+}
+
+.icon-centos, .icon-go {
+    color: var(--color-blue);
+}
+
+.icon-go {
+    margin-left: -7px;
+}
+
+.icon-html {
+    margin-right: 2px;
+}
+
+.fa-brands, .fa-solid {
+    padding-right: 5px;
 }
 
 @media screen and (max-width: 500px) {
