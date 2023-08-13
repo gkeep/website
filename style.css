@@ -89,6 +89,21 @@ main {
     font-size: medium;
 }
 
+#blog { 
+  font-size: large;
+  line-height: 1.5em;
+}
+
+#blog .section-title {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#blog h1 {
+  font-size: larger;
+}
+
 code, pre {
   font-family: 'Fira Code Web';
 }

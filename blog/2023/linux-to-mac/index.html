@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="image/icon_rounded.png"/>
+        <title>Gennady Koshkin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <script src="https://kit.fontawesome.com/86d0f9866d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="main-page">
+            <p><div class="section-title">About me</div>
+            Hi, I'm Gennady.</br>
+            I'm a <b>software developer</b>.
+            I specialize in <b>backend development</b>, most experienced with <b>Python</b> and <b>Go</b>.</br>
+            I speak <b>English</b> and <b>Russian</b>.</p>
+            <p>You can find my projects on <a href="https://github.com/gkeep"><b>GitHub</b></a> and <a href="https://gitlab.com/gkeep_"><b>GitLab</b></a>.</p>
+            <p>Contact me at <a rel="me" href="https://libretooth.gr/@gkeep">Mastodon</a> or by <a href="mailto:me@gkeep.dev">email</a>.
+        </header>
+        <div class="navigation">
+            <div class="section-title">Navigation</div>
+            <a href="/">Experience</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog">Blog</a>
+        </div>
+        <main id="blog">
+            <div class="section">
+                <div class="section-title">Switching from Desktop Linux to Mac</div>
+                
+                <h1 id="my-experience-with-linux">My experience with Linux</h1>
+                <p>I’ve been using Linux for more than 5 years now. My
+                first experience using Linux was back in 2015 with Ubuntu 14.05. I was
+                trying to install Windows 7 on my laptop, because I hated Windows 8, but
+                couldn’t (I was 13 and couldn’t figure out that I needed to change the
+                BIOS mode from UEFI to Legacy). So I tried other OSes.</p>
+                <p>Since then I use Linux a lot more and run it on my main machines
+                since 2019. </p>
+                
+                <h1 id="what-linux-is-good-at">What Linux is good at</h1>
+                <p>Linux, in my humble opinion, truly excels in one thing: <em>there’s
+                no “one true way” to do a thing</em>, though as I’ll argue later it may
+                also be its’ downfall, at least on the desktop.</p>
+                <p>There’s a lot of choice. For a novice Linux user it may be <em>too
+                much</em> choice. What distro do I use? What desktop environment? What
+                open source program to do thing X? Et cetera.</p>
+                <p>For an unprepared user of Windows or macOS it might just be too much.</p>
+                
+                <h1 id="gaming-on-linux-has-gotten-a-lot-better">Gaming on Linux has gotten a lot better</h1>
+                <p>Linux gaming has been on the rise thanks to Valve Software and their
+                Steam Deck.</p>
+                <p>Valve creates tools for their Linux-based handheld console Steam
+                Deck: Proton (compatibility layer for WINE), <a
+                href="https://github.com/ValveSoftware/vkd3d">vkd3d</a>, helping open
+                source projects like <a
+                href="https://github.com/doitsujin/dxvk">DXVK</a>. In turn, they help
+                the broad Linux universe, by making their work FOSS. <strong>This is the
+                true power of open source software!</strong> People notice this and are
+                switching to Linux. Just look at <a
+                href="https://arstechnica.com/gadgets/2023/08/linux-surpasses-the-mac-among-steam-gamers/">numbers</a>:</p>
+                <blockquote>
+                <p>In July’s [2023] survey, Windows was still reported by 96.21 percent
+                of users’ systems, so regardless of whether Linux or macOS come in
+                second, it’s a decidedly distant second. <strong>Linux managed 1.96
+                percent</strong>, while macOS accounted for 1.84 percent of
+                machines.</p>
+                </blockquote>
+                <p>As a Linux gamer, Valve completely changed my computing life. Before
+                tools like Proton, I couldn’t imagine fully ditching Windows for Linux.
+                It’s not perfect, far from it, but if you would look at the state of
+                Linux gaming two or three years before Proton, you would just see
+                half-baked tools like PlayOnLinux (which honestly looks and feels like
+                it was written fifteen years ago - initial release was in 2007, and the
+                UI, from the looks of it, hasn’t been updated. It barely worked for me
+                the last time I tried to use it, which was around 2017), Lutris (which
+                is a lot better than PlayOnLinux and worked <em>most of the times</em>,
+                but far from always), and of course, native Linux games provided by
+                developers on GOG, Steam and itch.io (though with caveats like no GOG
+                Galaxy app, so you <strong>cannot sync your save files to this
+                day</strong>).</p>
+                <p>But with Valve’s help Linux gaming evolved substantially: according
+                to <a href="https://www.protondb.com/">ProtonDB</a> you can now play 60%
+                of your Steam library. And that doesn’t count games outside of Steam, on
+                platforms like Epic Games Store, GOG and others. You can even play
+                <em>some</em> games with anticheat (like Apex Legends, DayZ and more)
+                since Steam Deck’s launch back in February 2022.</p>
+                <p>When Proton launched back in 2018, it changed lives for a lot of
+                Linux gamers. You could now possibly play any Steam game on Linux, with
+                performance hits, of course, but you <em>could</em>! Over the following
+                years, Valve much improved their Proton compatibility layer.</p>
+                <p>I think I fully switched to Linux on my desktop PC late 2019 or early
+                2020, before that I already ran Linux on my laptops for years, since I
+                did not need to run games on them. As a Software Developer it was just
+                easier to build, run and debug my programs on Linux, rather than on
+                Windows. Plus, I could tinker with my PC much more than I ever could on
+                Windows.</p>
+                <h1 id="but">But…</h1>
+                <p>But there was always one big elephant in the room (or a
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Heckert_GNU_white.svg" alt="GNU Bull" width="70px"/>,
+                if you will). <strong>Linux’s fragmentation</strong>. From the distro of
+                your choosing (Ubuntu, Debian, Linux Mint, Fedora, Arch Linux, Manjaro,
+                POP!_OS, you get the idea), to desktop environment (GNOME, KDE, XFCE,
+                obscure setups with plain window managers like i3wm, sway, dwm, Openbox,
+                etc) and even window management protocols (X11 or Wayland). From a
+                user’s point of view this is very confusing (why would I use Arch over
+                Ubuntu or Wayland over X11 or GNOME over KDE?), but from a developer’s
+                point of view it’s just scary.</p>
+                <p><em>How would I ever manage to test my app/game on all of the
+                infinite amount of possible setups?</em></p>
+                <p>Well on (server) software development side, this was solved by using
+                tools like Docker, which package your application in a container and
+                ship it in a mini virtual environment, agnostic of the host system.
+                Desktop applications are moving to using similar-in-concept style of
+                packaging with Snap and Flatpak. Snap (personally) is not good, bad
+                performance, parts of it are closed source (which stands against the
+                philosophy of FOSS and Linux). Flatpak is better (fully open source,
+                apps are easy to package and maintain), but still not perfect. And, of
+                course, some users are just plain refusing to adopt new standards (some
+                even reject using systemd, which has been the default system and service
+                manager on most Linux distros for more than 10 years) and stick to the
+                good ol’ “download this app from my distro’s packaging solution or
+                compile it from source” approach.</p>
+                <h2 id="nvidia">NVIDIA</h2>
+                <p>And on top of all that there’s <strong>NVIDIA</strong>. Oh, NVIDIA, I
+                can’t describe how much I hate <del>you</del> your approach to Linux.
+                There’s a reason Linus Torvalds has publicly said “<a
+                href="https://youtu.be/iYWzMvlj2RQ?t=30">NVIDIA, fuck you</a>”.</p>
+                <p>For the whole time of Linux’s existence, NVIDIA has just been a big
+                pain in the ass. 9 out of 10 borked Ubuntu installations I encountered
+                were because of NVIDIA drivers. This game that totally works on other
+                people’s PCs doesn’t work on yours for some reason? Probably NVIDIA
+                drivers. Wayland doesn’t work? Well, you probably use an NVIDIA GPU, and
+                NVIDIA just has no plans on <a
+                href="https://wiki.gnome.org/Initiatives/Wayland/NVIDIA">making it
+                easier for developers</a> to make Wayland work on their GPUs.</p>
+                <p>NVIDIA has <a
+                href="https://www.phoronix.com/news/Mesa-NVK-Vulkan-Merged">been better
+                with Linux recently</a>, but the long history of hostile approach to
+                Linux makes it hard to believe that major changes will come from
+                this.</p>
+                <h1 id="so-why-exactly-am-i-switching-to-mac">So why, exactly, am I
+                switching to Mac</h1>
+                <p>TL;DR: it’s a death by a thousand paper cuts.</p>
+                <p>I’m tired of always fixing my distro, poking around in system files
+                to make something work or debugging some app that crashes or doesn’t
+                work as it’s supposed to. Besides always checking if this game will run
+                on my Linux machine and/or fixing this particular game, so it can run or
+                <em>run properly</em>.</p>
+                <p><em>I don’t have time anymore for this ‘hobby’ of maintaining a Linux
+                desktop.</em></p>
+                <p>I’m not saying I’m never going to use desktop Linux ever again, 
+                I’m going to use my PC with Linux for gaming (with
+                games I am 100% sure will run without much fuss) and home server stuff, 
+                (Time Machine backup server, seeding totally legal stuff via BitTorrent)
+                rather than a full-on desktop machine.</p>
+                <h1 id="what-am-i-using-now">What am I using now</h1>
+                <p>So, being very frustrated with desktop Linux lately, I pulled the
+                plug on an M2 MacBook Air.</p>
+                <p>This little machine is probably faster than my desktop (don’t count
+                gaming because Apple hates gaming or the gaming industry hates Apple).
+                I’m still in the honeymoon period, but I just love it. Everything
+                <strong>just works™</strong>. The laptop is fast, silent (there’s no
+                fan!) and tightly integrates with apps I love, with the power of
+                <del>Apple Silicon</del> ARM. I can use apps on the desktop like Timery,
+                Fantastical and Overcast which I adore on my iPhone. Not to mention the
+                tight integration and sync between my Apple devices (iPhone, AirPods and
+                now MacBook) with Focus, iCloud suite and everything else.</p>
+                <p>I may have turned to the dark side, but it’s nice here.</p>
+            </div>
+        </main>
+    </body>
+</html>
