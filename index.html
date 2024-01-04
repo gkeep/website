@@ -12,9 +12,9 @@
         <header id="main-page">
             <p><div class="section-title">About me</div>
             Hi, I'm Gennady.</br>
-            I'm a <b>software developer</b>.
-            I specialize in <b>backend development</b>, most experienced with <b>Python</b> and <b>Go</b>.</br>
-            I speak <b>English</b> and <b>Russian</b>.</p>
+            I'm a <b>software developer</b>, as well as an <b>on-premises engineer</b>.</br>
+            I'm most experienced with <b>Python</b>, <b>Linux</b>, <b>Docker</b>, <b>bash</b> and <b>PostgresSQL</b>.</br>
+            I'm fluent in <b>English</b> and <b>Russian</b>.</p>
             <p>You can find my projects on <a href="https://github.com/gkeep"><b>GitHub</b></a> and <a href="https://gitlab.com/gkeep_"><b>GitLab</b></a>.</p>
             <p>Contact me at <a rel="me" href="https://mastodon.social/@gkeep">Mastodon</a> or by <a href="mailto:me@gkeep.dev">email</a>.
         </header>
@@ -26,6 +26,48 @@
         <main>
             <div class="section">
                 <div class="section-title">Job</div>
+                <a href="https://hr-link.ru">HR-Link</a>
+
+                <p><div class="section-title">Role</div>
+                <b>On-premises engineer</b><br>
+                Aug 2023 - <em>now</em></p>
+
+                <ul class="stack"><div class="section-title">Stack</div>
+                    <li>
+                        <i class="fa-brands fa-linux"></i>Linux
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-docker fa-sm"></i>Docker
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-hashtag"></i>bash
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database"></i>PostgreSQL
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-python"></i>Python
+                    </li>
+                </ul>
+
+                <p><div class="section-title">Responsibilities</div>
+                    Maintaining the on-premises solution of the software on numerous
+                    clients: updates, tweaking, incident fixes, as well as general tasks
+                    like helping client engineers and users with the software.</p>
+                    <p>Additionally, I’ve created several internally used applications,
+                    which help myself and my colleagues.</p>
+                    <dl>
+                        <dt><a href="https://github.com/gkeep/script-checker">Script-checker</a></dt>
+                            <dd>
+                                a GUI application that runs a bash script on a remote machine to check its validity.
+                            </dd>
+                        <dt><a href="https://github.com/gkeep/script-creator">Script-creator</a></dt>
+                            <dd>a GUI application to create bash scripts from SQL scripts.</dd>
+                    </dl>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Job</div>
                 <a href="https://vasexperts.ru">VAS Experts</a>
 
                 <p><div class="section-title">Role</div>
@@ -34,16 +76,16 @@
 
                 <ul><div class="section-title">Stack</div>
                     <li>
-                        <i class="icon-python fa-brands fa-python"></i>Python
+                        <i class="fa-brands fa-python"></i>Python
                     </li>
                     <li>
-                        <i class="icon-centos fa-brands fa-centos"></i>CentOS
+                        <i class="fa-brands fa-centos"></i>CentOS
                     </li>
                     <li>
-                        <i class="icon-clickhouse fa-solid fa-database"></i>ClickHouse DB
+                        <i class="fa-solid fa-database"></i>ClickHouse DB
                     </li>
                     <li>
-                        <i class="fa-solid fa-hashtag"></i>Bash
+                        <i class="fa-solid fa-hashtag"></i>bash
                     </li>
                 </ul>
 
@@ -52,7 +94,7 @@
                     <li>Testing</li>
                 </ul>
 
-                <p><div class="section-title">Responsibilities</div>
+                <p><div class="section-title">Details</div>
                 Lead developer on multiple submodules of СКАТ DPI:</p>
                 <p><b>Website classifier</b>
                 <ol>
@@ -60,17 +102,19 @@
                     <li>Image classifier <i>(development, shipping, maintenance)</i></li>
                     <li>Video classifier <i>(development, shipping, maintenance)</i></li>
                 </ol></p>
-                <p><div class="section-title">Details</div>
+                <p>
                 Created a module to scrape, download and analyze images and videos from websites using <a href="https://pypi.org/project/requests/">requests</a> and <a href="https://github.com/notAI-tech/NudeNet">NudeNet</a> libraries.
                 Made Quality of Life improvements to existing codebase: refactoring, added comments and vastly improved logging throughout the whole program.</p>
                 <p><b>Dump analyzer</b>
-                <ul><div class="section-title">Details</div>
-                    <li>Rewrote the whole program, as the old architecture was unusuable (very high memory load, terrible performance).</li>
+                <ul>
+                    <li>Rewrote the whole program, as the old architecture was barely usuable.</li>
                     <li>Refactored program uses <i>5x</i> less memory, has low load on CPU and has great performance.</li>
-                    <ol>Used libraries:
-                        <li><a href="https://docs.python.org/3/library/xml.etree.elementtree.html">xml.etree.ElementTree</a> (analyzing and restructuring XML dumps)</li>
-                        <li><a href="https://clickhouse-driver.readthedocs.io/en/latest/">clickhouse-driver</a> (communicating and working with ClickHouse DB)</li>
-                    </ol>
+                    <p><dl>Used libraries:
+                        <dt><a href="https://docs.python.org/3/library/xml.etree.elementtree.html">xml.etree.ElementTree</a></dt>
+                            <dd>analyzing and restructuring XML dumps</dd>
+                        <dt><a href="https://clickhouse-driver.readthedocs.io/en/latest/">clickhouse-driver</a></dt>
+                            <dd>communicating and working with ClickHouse DB</dd>
+                    </dl></p>
                 </ul>
             </div>
         </main>

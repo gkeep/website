@@ -12,6 +12,8 @@
   --color-orange: #c57339;
   --color-red: #cc517a;
   --color-purple: #7759b4;
+  --color-green: #668e3d;
+  --color-cyan: #3f83a6;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,11 +26,13 @@
     --color-orange: #e2a478;
     --color-red: #e27878;
     --color-purple: #a093c7;
+    --color-green: #b4be82;
+    --color-cyan: #89b8c2;
   }
 }
 
 header {
-  font-size: large;
+  font-size: 1em;
 }
 
 body {
@@ -83,6 +87,7 @@ a:hover {
 .section-title {
     font-size: small;
     font-family: "Fira Code Web";
+    color: var(--color-cyan);
 }
 
 main {
@@ -137,20 +142,16 @@ img {
   text-align: center;
 }
 
-.icon-python, .icon-js, .icon-clickhouse {
-    color: var(--color-orange);
+.stack > li{
+  color: var(--color-text);
 }
 
-.icon-html {
-    color: var(--color-red);
+.stack > li > i {
+  color: var(--color-text-alt);
 }
 
-.icon-centos, .icon-go {
-    color: var(--color-blue);
-}
-
-.icon-go {
-    margin-left: -7px;
+.fa-docker, .fa-golang {
+  width: 14px;
 }
 
 .icon-html {
