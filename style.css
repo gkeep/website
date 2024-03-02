@@ -123,6 +123,11 @@ img {
     height: auto;
 }
 
+.script-creator > img {
+  max-width: 350px;
+  height: auto;
+}
+
 .project-title {
     font-size: large;
 }
