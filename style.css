@@ -179,4 +179,7 @@ img {
   body {
     margin: 50px 10% 50px 5%;
   }
+  #root {
+    margin: 40% 10% 10%;
+  }
 }
